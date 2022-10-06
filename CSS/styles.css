@@ -1,0 +1,23 @@
+.div {
+    display: inline-block;
+}
+
+.nav {
+    vertical-align: top;
+    width: 73%;
+    padding: 1;
+    
+}
+
+
+.logo {
+    background-image: url(/Users/brendanholleytg/Documents/GitHub/UX_UI_HW_17/images/Bb_3D_logo.png);
+    width: 23%;
+    padding: 1%;
+}
+
+.footer {
+    background-color: #373738;
+
+}
+
