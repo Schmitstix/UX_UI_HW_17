@@ -1,14 +1,26 @@
-.div {
+div {
     display: inline-block;
 }
 
-.nav {
-    vertical-align: top;
-    width: 73%;
-    padding: 1;
-    
+nav {
+    background-color: rgb(37, 37, 37);
+    list-style-type: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 0;
+    margin: 0; 
 }
 
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+.hero1{
+    width: 500px;
+    margin: 0 auto;
+}
 
 .logo {
     background-image: url(/Users/brendanholleytg/Documents/GitHub/UX_UI_HW_17/images/Bb_3D_logo.png);
@@ -16,8 +28,25 @@
     padding: 1%;
 }
 
-.footer {
-    background-color: #373738;
-
+footer {
+    background-color: rgb(37, 37, 37);
+    list-style-type: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px;
+    margin: 20px; 
 }
 
+.inline-block li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.footer li {
+    display: inline-block;
+    vertical-align: top;
+    list-style-type: none;
+    padding: 25px;
+}
